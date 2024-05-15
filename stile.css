@@ -48,21 +48,54 @@ body{
     border-radius: 40px 40px 0 0;
 }
 .botoes.ativo{
-
     display: block;
 }
-.ativo
-{
-    
+.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-texto-principal{
+font-size: 28px;
+text-align:center;
 
 }
-.abas-texto{
-    background-color: var(--texto-fundo);
-    padding: 4px;
-    border-radius: 0  0 4px;
+.aba-conteudo-texto-secundario{
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
 }
+.contador{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+.contador-digito-titulo{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
+}
+
+
+
 
 @media screen and (min-width: 750px){
     .botoes{ 
@@ -75,4 +108,3 @@ body{
         border-radius: 0 40px 0 0;
     }
 }
-    
